@@ -61,9 +61,9 @@ logs/*.log
 Thumbs.db
 desktop.ini
 
-# External data (large files)
-external_data/*
-!external_data/README.md
+# External data (large files) - now using Git LFS
+# external_data/*  # Commented out to allow LFS tracking
+# !external_data/README.md
 
 # Compressed files
 # Uncomment if you want to ignore compressed files
