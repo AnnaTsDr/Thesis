@@ -1,0 +1,137 @@
+# R specific files
+.Rhistory
+.RData
+.Rproj.user
+.Rhistory
+.RData
+.Rproj.user
+.renviron
+.rprofile
+.rproj.user
+*.Rproj
+
+# Package files
+packrat/
+src/
+.HERE
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Fiji.app/
+
+# Data files (large files should use Git LFS)
+# Uncomment if you want to ignore all data files
+# data/*.rds
+# data/*.csv
+# data/*.tsv
+# data/*.h5ad
+# data/*.h5seurat
+
+# Processed data (can be regenerated)
+# Uncomment if you want to ignore processed data
+# data/processed/*.rds
+
+# Result files (can be regenerated)
+# Uncomment if you want to ignore result files
+# data/results/*.csv
+
+# Figure files (can be regenerated)
+# Uncomment if you want to ignore figure files
+# figures/*.png
+# figures/*.pdf
+# figures/*.tiff
+# figures/*.jpeg
+
+# Log files
+logs/*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# External data (large files)
+external_data/
+
+# Compressed files
+# Uncomment if you want to ignore compressed files
+# *.tar.gz
+# *.zip
+
+# Office files (if not needed in repo)
+# Uncomment if you don't want to track Office files
+# *.docx
+# *.pptx
+# *.xlsx
+
+# PDF files (if not needed in repo)
+# Uncomment if you don't want to track PDF files
+# *.pdf
+
+# Backup files
+*.bak
+*.backup
+
+# Compiled files
+*.o
+*.so
+*.dll
+
+# Session files
+*.Rhistory
+*.RData
+*.Ruserdata
+
+# Package installation files
+*.tar.gz
+*.tgz
+
+# Documentation drafts
+# Uncomment if you want to ignore draft documents
+# documentation/*draft*
+
+# Presentation drafts
+# Uncomment if you want to ignore draft presentations
+# presentations/*draft*
+
+# Analysis cache
+.cache/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python files (if any)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Large file storage - consider using Git LFS for:
+# - All .rds files in data/
+# - All .h5ad and .h5seurat files
+# - Large .csv files
+# - External dataset files
+# - Large figure files
+
+# Keep these in version control:
+# - All .R scripts
+# - README files
+# - .gitignore
+# - Small configuration files
+# - Important documentation
