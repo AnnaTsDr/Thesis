@@ -62,7 +62,8 @@ Thumbs.db
 desktop.ini
 
 # External data (large files)
-external_data/
+external_data/*
+!external_data/README.md
 
 # Compressed files
 # Uncomment if you want to ignore compressed files
