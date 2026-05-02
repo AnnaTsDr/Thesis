@@ -28,6 +28,28 @@ The Tabula Muris Senis project provides a comprehensive resource for cell biolog
 
 To download the data files, visit the official Tabula Muris Senis repository or the project's data portal.
 
+### Supercentenarians Data (Centenarians)
+Single-cell RNA sequencing data from supercentenarians studying cytotoxic CD4 T cells.
+
+**Research Paper:** [Single-cell transcriptomics reveals expansion of cytotoxic CD4 T cells in supercentenarians](https://doi.org/10.1073/pnas.1907883116)
+- Hashimoto K, et al. Proc Natl Acad Sci U S A. 2019 Nov 26;116(48):24242-24251
+
+**Data Source:** GEO Accession GSE141540
+- https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141540
+
+**Note:** Large files (>2GB) are stored locally in `external_data/Centenarians/` and are not tracked in this repository due to Git LFS size limits.
+
+### Bladder Cancer CD4+ T Cells Data
+Single-cell RNA and TCR sequencing data from human bladder cancer patients studying intratumoral CD4+ T cell cytotoxicity.
+
+**Research Paper:** [Intratumoral CD4+ T cells mediate anti-tumor cytotoxicity in human bladder cancer](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE149652)
+- Published in PNAS (2020)
+
+**Data Source:** GEO Accession GSE149652
+- https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE149652
+
+**Note:** All files from this dataset are tracked with Git LFS as they are under the 2GB size limit.
+
 ## Directory Structure
 
 ```

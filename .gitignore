@@ -2,3 +2,13 @@
 # Files >2GB are excluded due to Git LFS size limits
 external_data/*.h5ad
 external_data/*.h5seurat
+
+# Large files from Centenarians folder (>2GB)
+external_data/Centenarians/01.UMI.csv
+external_data/Centenarians/01.UMI.txt
+external_data/Centenarians/02.UMI.lognorm.txt
+external_data/Centenarians/Supercentenerians&tSNE.rds
+external_data/Centenarians/Supercentenerians_clutered.rds
+external_data/Centenarians/Homo_sapiens.GRCh38.84.gtf
+external_data/Centenarians/UMI.csv
+external_data/Centenarians/UMI+gene_names.csv
