@@ -1,0 +1,4 @@
+# Large data files - too big for GitHub
+external_data/*.gtf
+external_data/*.h5ad
+external_data/*.h5seurat
