@@ -1,4 +1,4 @@
-# Large data files - too big for GitHub
-external_data/*.gtf
+# Large data files are tracked with Git LFS
+# Files >2GB are excluded due to Git LFS size limits
 external_data/*.h5ad
 external_data/*.h5seurat
